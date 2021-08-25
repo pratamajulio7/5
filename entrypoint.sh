@@ -1,1 +1,0 @@
-./gubrag.sh
